@@ -8,9 +8,9 @@ int main() {
     printf("LANH");
   } else if (t < 25) {
     printf("MAT");
-  } else if (t < 35) {
+  } else if (t < 25) {
     printf("NONG");
-  } else if ( t > 35) {
+  } else if ( t < 35) {
     printf("RAT_NONG");
   }
   return 0;
