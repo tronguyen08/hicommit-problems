@@ -7,7 +7,7 @@ int main() {
 
   if (distance < 0 || order_value <= 0 ) {
     printf("INVALID");
-  } else if (order_value >= 100000){
+  } else if (order_value >= 100000) {
       printf("0");
   } else if (distance <= 5) {
       fee = 15000;
