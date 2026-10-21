@@ -6,6 +6,10 @@ int main() {
 
   if (distance < 0 || order_value <= 0 ) {
     printf("INVALID");
-  }
+  } else if (order_value >= 100000)
+  {
+    printf("0");
+  } 
+    
   return 0;
 }
