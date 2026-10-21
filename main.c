@@ -2,7 +2,7 @@
 
 int main() {
   int distance, order_value;
-  int fee;
+  
   scanf("%d %d", &distance, &order_value);
 
   if (distance < 0 || order_value <= 0 ) {
@@ -10,14 +10,11 @@ int main() {
   } else if (order_value >= 100000) {
       printf("0");
   } else if (distance <= 5) {
-      fee = 15000;
-      printf("%d", fee);
+      printf("15000");
   } else if (distance <= 15) {
-      fee = 25000;
-      printf("%d", fee);
+    printf("25000");
   } else {
-      fee = 40000;
-      printf("%d", fee);
+    printf("40000");
   }
     
   return 0;
