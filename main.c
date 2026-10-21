@@ -11,7 +11,7 @@ int main() {
   {
     printf("0");
   } else if (distance <= 5) {
-    fee =15000
+    fee =15000;
     printf("%d", fee);
   }
     
