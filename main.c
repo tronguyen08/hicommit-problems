@@ -13,6 +13,9 @@ int main() {
   } else if (distance <= 5) {
     fee =15000;
     printf("%d", fee);
+  } else if (distance <= 15) {
+    fee =25000;
+    printf("%d", fee);
   }
     
   return 0;
