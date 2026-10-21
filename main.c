@@ -6,6 +6,8 @@ int main() {
 
   if (t < 15) {
     printf("LANH");
+  } else if ( 15 < t < 25) {
+    printf("MAT")
   }
   return 0;
 }
