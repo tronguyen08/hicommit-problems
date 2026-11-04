@@ -3,7 +3,7 @@
 int main() {
   float dtb;
   int drl;
-  int xlhl;
+  float xlhl;
   int xlhk;
   scanf("%f", &dtb);
   scanf("%d", &drl);
