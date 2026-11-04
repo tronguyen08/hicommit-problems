@@ -6,12 +6,12 @@ int main() {
   scanf("%f", &dtb);
   scanf("%d", &drl);
   if (dtb >= 9.0) {
-    print("XUAT_SAC");
+    printf("XUAT_SAC");
   } else if(8.0 <= dtb < 9.0) {
     printf("GIOI");    
   } else if(7.0 <= dtb < 8.0) {
     printf("KHA");
-  } else if(dtb <= 7.0) {
+  } else if(dtb < 7.0) {
     printf("KHONG_DAT");
   } else {
     
