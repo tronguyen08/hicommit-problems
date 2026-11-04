@@ -3,8 +3,12 @@
 int main() {
   float dtb;
   int drl;
+  int xlhl;
+  int xlhk;
   scanf("%f", &dtb);
   scanf("%d", &drl);
+  scanf("%f", xlhl);
+  scanf("%d"; xlhk);
   if (dtb >= 9.0) {
     printf("XUAT_SAC");
   } else if(8.0 <= dtb < 9.0) {
@@ -23,14 +27,5 @@ int main() {
     printf("KHONG_DAT");
   }
 
-  if (dtb >= 9.0, drl >= 90) {
-    printf("HOC_BONG_XUAT_SAC");
-  } else if(7.0 <= dtb < 8.0, drl >= 90 || dtb >= 9.0, 70 <= drl < 80  ) {
-    printf("HOC_BONG_GIOI");
-  } else if() {
-    printf(""HOC_BONG_KHA);
-  } else {
-    printf("KHONG_DAT");
-  }
   return 0;
 }
