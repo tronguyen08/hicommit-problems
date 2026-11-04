@@ -19,21 +19,21 @@ int main() {
     xlhl = 3;
     printf("KHA");
   } else {
-    xlhl = 4
+    xlhl = 4;
     printf("KHONG_DAT");
   } 
   
   if (drl >= 90) {
-    xlhk = 1
+    xlhk = 1;
     printf("XUAT_SAC");
   } else if(80 <= drl < 90) {
-    xlhl = 2
+    xlhl = 2;
     printf("TOT");
   } else if(70 <= drl < 80) {
-    xlhk = 3
+    xlhk = 3;
     printf("KHA");
   } else {
-    xlhk = 4
+    xlhk = 4;
     printf("KHONG_DAT");
   } 
   if (xlhl == 1 && xlhk == 1) {
