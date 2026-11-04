@@ -11,18 +11,19 @@ int main() {
     printf("GIOI");    
   } else if(7.0 <= dtb < 8.0) {
     printf("KHA");
-  } else {
+  } else if(dtb < 7.0) {
     printf("KHONG_DAT");
-  } 
-  
-  if (drl >= 90) {
+  } if (drl >= 90) {
     printf("XUAT_SAC");
   } else if(80 <= drl < 90) {
     printf("GIOI");
   } else if(70 <= drl < 80) {
     printf("KHA");
-  } else {
+  } else if(drl < 70)  {
     printf("KHONG_DAT");
-  } 
+  }else {
+    
+  }
+  
   return 0;
 }
