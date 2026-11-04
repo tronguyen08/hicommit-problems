@@ -1,22 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-  switch(Xep_Loai) {
+  switch(1) {
   case 1;
-  printf("XEP_LOAI_XUAT_SAC");
+  printf("XEP_LOAI_XUAT_SAC\n");
   break;
   case 2;
-  printf"("XEP_LOAI_GIOI");
+  printf"("XEP_LOAI_GIOI\n");
     break;
   case 3;
-  printf("XEP_LOAI_KHA");
+  printf("XEP_LOAI_KHA\n");
   break;
   case 4;
-  printf("XEP_LOAI_TRUNG_BINH");
+  printf("XEP_LOAI_TRUNG_BINH\n");
   break;
     default:
-      printf("KHONG_HOP_LE")
-  break;
+      printf("KHONG_HOP_LE\n")
   }
     return 0;
 }
