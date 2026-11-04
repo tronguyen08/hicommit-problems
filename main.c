@@ -8,7 +8,7 @@ int main() {
   scanf("%f", &dtb);
   scanf("%d", &drl);
   scanf("%f", xlhl);
-  scanf("%d"; xlhk);
+  scanf("%d", xlhk);
   if (dtb >= 9.0) {
     printf("XUAT_SAC");
   } else if(8.0 <= dtb < 9.0) {
