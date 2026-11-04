@@ -23,7 +23,7 @@ int main() {
   } else if(70 <= drl < 80) {
     printf("KHA");
   } else if(drl < 70) {
-    printf("KHONG_DAT")
+    printf("KHONG_DAT");
   } else {
     
   }
