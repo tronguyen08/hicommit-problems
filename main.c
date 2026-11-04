@@ -19,11 +19,18 @@ int main() {
     printf("GIOI");
   } else if(70 <= drl < 80) {
     printf("KHA");
-  } else if(drl < 70)  {
+  } else {
     printf("KHONG_DAT");
-  }else {
-    
   }
-  
+
+  if () {
+    printf("HOC_BONG_XUAT_SAC");
+  } else if() {
+    printf("HOC_BONG_GIOI");
+  } else if() {
+    printf(""HOC_BONG_KHA);
+  } else {
+    printf(KHONG_DAT);
+  }
   return 0;
 }
