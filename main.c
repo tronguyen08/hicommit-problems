@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  int xl = 4;
+  int xl ;
+  
   switch(xl) {
   case 1:
   printf("XEP_LOAI_XUAT_SAC\n");
