@@ -23,14 +23,14 @@ int main() {
     printf("KHONG_DAT");
   }
 
-  if () {
+  if (dtb >= 9.0, drl >= 90) {
     printf("HOC_BONG_XUAT_SAC");
   } else if() {
     printf("HOC_BONG_GIOI");
   } else if() {
     printf(""HOC_BONG_KHA);
   } else {
-    printf(KHONG_DAT);
+    printf("KHONG_DAT");
   }
   return 0;
 }
