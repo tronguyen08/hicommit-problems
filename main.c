@@ -43,7 +43,7 @@ int main() {
   } else if(xlhl == 3 && (xlhk == 1 || xlhk == 2 || xlhk == 3) || xlhl == 2 && xlhk == 3 || xlhl == 1 && xlhk == 3) {
     printf("HOC_BONG_KHA");
   } else {
-    printf("KHONG_DAT")
+    printf("KHONG_DAT");
   }
   
   return 0;
