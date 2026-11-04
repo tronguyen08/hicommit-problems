@@ -3,8 +3,12 @@
 int main() {
   float dtb;
   int drl;
+  float xlhl;
+  int xlhk;
   scanf("%f", &dtb);
   scanf("%d", &drl);
+  scanf("%d", &xlhk);
+  scanf("%f", &xlhl);
   if (dtb >= 9.0) xlhl = 1; 
   {
     printf("XUAT_SAC");
