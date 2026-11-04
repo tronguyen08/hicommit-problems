@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  switch("Xep_Loai") {
+  switch(Xep_Loai) {
   case 1;
   printf("XEP_LOAI_XUAT_SAC");
   break;
@@ -13,7 +13,10 @@ int main(void) {
   break;
   case 4;
   printf("XEP_LOAI_TRUNG_BINH");
-  break;    
+  break;
+    default:
+      printf("KHONG_HOP_LE")
+  break;
   }
     return 0;
 }
