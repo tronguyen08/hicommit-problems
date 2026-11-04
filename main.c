@@ -16,7 +16,7 @@ int main() {
   } if (drl >= 90) {
     printf("XUAT_SAC");
   } else if(80 <= drl < 90) {
-    printf("GIOI");
+    printf("TOT");
   } else if(70 <= drl < 80) {
     printf("KHA");
   } else {
@@ -25,7 +25,7 @@ int main() {
 
   if (dtb >= 9.0, drl >= 90) {
     printf("HOC_BONG_XUAT_SAC");
-  } else if() {
+  } else if(7.0 <= dtb < 8.0, drl >= 90 || dtb >= 9.0, 70 <= drl < 80  ) {
     printf("HOC_BONG_GIOI");
   } else if() {
     printf(""HOC_BONG_KHA);
