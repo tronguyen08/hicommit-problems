@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  switch
-    case 1;
+  switch("Xep_Loai") {
+  case 1;
   printf("XEP_LOAI_XUAT_SAC");
   break;
   case 2;
@@ -13,7 +13,7 @@ int main(void) {
   break;
   case 4;
   printf("XEP_LOAI_TRUNG_BINH");
-  break;
-  
-  return 0;
+  break;    
+  }
+    return 0;
 }
