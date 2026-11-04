@@ -16,7 +16,7 @@ int main() {
   
   if (drl >= 90)  xlhk = 1;
   else if(drl >= 80 && drl < 90)  xlhl = 2;
-  else if(70 <= drl < 80) xlhk = 3;
+  else if(drl >= 70 && drl < 80) xlhk = 3;
   else if(drl < 70) xlhk = 4;    
  
   if (xlhl == 1 && xlhk == 1) {
