@@ -40,7 +40,7 @@ int main() {
     printf("HOC_BONG_XUAT_SAC");
   } else if(xlhl == 2 && (xlhk == 1 || xlhk == 2) || (xlhl == 1 && xlhk == 2)) {
     printf("HOC_BONG_GIOI");
-  } else if(xlhl == 3 && (xlhk == 1 || xlhk == 2 || xlhk == 3) || xlhl == 2 && xlhk == 3 || xlhl == 1 && xlhk == 3) {
+  } else if(xlhl == 3 && (xlhk == 1 || xlhk == 2 || xlhk == 3) || (xlhl == 2 && xlhk == 3) || (xlhl == 1 && xlhk == 3)) {
     printf("HOC_BONG_KHA");
   } else {
     printf("KHONG_DAT");
